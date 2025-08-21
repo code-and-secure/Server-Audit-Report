@@ -1,6 +1,6 @@
-# Server-Audit-Report# Server Audit Report Script
+# Server Audit Report Script
 
-This repository contains a **comprehensive Bash script** that generates a detailed server audit report in HTML format with embedded CSS for easy viewing. The report covers all major aspects of server health, resource usage, workload, security status, and more.
+This repository (`@code-and-secure/Server-Audit-Report`) contains a **comprehensive Bash script** that generates a detailed server audit report in HTML format with embedded tables for easy viewing. The report covers all major aspects of server health, resource usage, workload, security status, and more.
 
 ---
 
@@ -18,9 +18,9 @@ This repository contains a **comprehensive Bash script** that generates a detail
 - **Scheduled cron jobs**
 - **Recent critical system logs**
 - **Hardware summary**
-- **Security patch status** (checks for connectivity before reporting)
-- **Current server workload** (load averages and top processes)
-- **Automatic health checks** (CPU, RAM, disk, swap)
+- **Security patch status**
+- **Current server workload**
+- **Automatic health checks**
 
 ---
 
@@ -31,10 +31,10 @@ This repository contains a **comprehensive Bash script** that generates a detail
 Clone this repository or download the script file:
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/code-and-secure/Server-Audit-Report.git
+cd Server-Audit-Report
 # OR download just the script:
-wget https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/server_audit_report.sh
+wget https://raw.githubusercontent.com/code-and-secure/Server-Audit-Report/main/server_audit_report.sh
 ```
 
 ### 2. Make the script executable
@@ -83,21 +83,8 @@ sudo yum install lshw net-tools
 
 - **Run as root** for the most complete results (especially hardware info, logs, and systemd services).
 - The script is designed for Linux servers but may work on other Unix-like systems with minor tweaks.
-- The HTML report uses embedded CSS for clear and organized presentation.
+- The HTML report uses embedded tables for clear and organized presentation.
 - Handles network connectivity gracefully: if no internet is available, it notifies this in the security patch section.
-
----
-
-## Example
-
-![screenshot of HTML report](screenshot.png)
-
----
-
-## License
-
-This project is licensed under the MIT License.  
-See [LICENSE](LICENSE) for more information.
 
 ---
 
@@ -107,6 +94,4 @@ Pull requests and suggestions are welcome!
 
 ---
 
-## Author
-
-[Your Name or GitHub handle]
+**Repository:** [@code-and-secure/Server-Audit-Report](https://github.com/code-and-secure/Server-Audit-Report)

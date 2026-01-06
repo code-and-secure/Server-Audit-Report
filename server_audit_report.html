@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Server Audit Report - runnervmh13bl</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 40px; background: #f8f8f8; color: #222; }
+h1, h2 { color: #2a4d69; }
+section { background: #fff; margin-bottom: 20px; border-radius: 6px; box-shadow: 0 2px 6px #ddd; padding: 20px; }
+pre { background: #f0f0f0; padding: 10px; border-radius: 4px; font-size: 0.96em; overflow-x: auto; }
+strong { color: #4b86b4; }
+hr { border: 0; border-top: 1px solid #eee; margin: 24px 0; }
+.warning { color: #b94a48; font-weight: bold; }
+.good { color: #468847; font-weight: bold; }
+</style>
+</head>
+<body>
+<h1>Server Audit Report</h1>
+<p><strong>Date:</strong> Tue Jan  6 11:37:24 UTC 2026</p>
+<p><strong>Hostname:</strong> runnervmh13bl</p>
+<hr>
+<section><h2>1. Host Information</h2><pre>
+ Static hostname: runnervmh13bl
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: 2831c50a8f464b3fb6759cd84d0e21ce
+         Boot ID: 608dfa98238a46c982eaf2e96d783d66
+  Virtualization: microsoft
+Operating System: Ubuntu 24.04.3 LTS
+          Kernel: Linux 6.11.0-1018-azure
+    Architecture: x86-64
+ Hardware Vendor: Microsoft Corporation
+  Hardware Model: Virtual Machine
+Firmware Version: 090008
+   Firmware Date: Fri 2018-12-07
+    Firmware Age: 7y 1month
+
+Uptime:
+up 2 minutes
+
+OS Release:
+PRETTY_NAME="Ubuntu 24.04.3 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.3 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+</pre></section>
+<section><h2>2. CPU Information</h2><pre>
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        48 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               4
+On-line CPU(s) list:                  0-3
+Vendor ID:                            AuthenticAMD
+Model name:                           AMD EPYC 7763 64-Core Processor
+CPU family:                           25
+Model:                                1
+Thread(s) per core:                   2
+Core(s) per socket:                   2
+Socket(s):                            1
+Stepping:                             1
+BogoMIPS:                             4890.85
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves user_shstk clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm
+Virtualization:                       AMD-V
+Hypervisor vendor:                    Microsoft
+Virtualization type:                  full
+L1d cache:                            64 KiB (2 instances)
+L1i cache:                            64 KiB (2 instances)
+L2 cache:                             1 MiB (2 instances)
+L3 cache:                             32 MiB (1 instance)
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-3
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Itlb multihit:          Not affected
+Vulnerability L1tf:                   Not affected
+Vulnerability Mds:                    Not affected
+Vulnerability Meltdown:               Not affected
+Vulnerability Mmio stale data:        Not affected
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Not affected
+Vulnerability Spec rstack overflow:   Vulnerable: Safe RET, no microcode
+Vulnerability Spec store bypass:      Vulnerable
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Not affected
+
+CPU Usage:
+%Cpu(s):  0.0 us,  2.3 sy,  0.0 ni, 97.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+</pre></section>
+<section><h2>3. Memory (RAM & Swap)</h2><pre>
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       1.9Gi       5.7Gi        44Mi       8.5Gi        13Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+/proc/meminfo (Top 20):
+MemTotal:       16379472 kB
+MemFree:         5930460 kB
+MemAvailable:   14399012 kB
+Buffers:           80612 kB
+Cached:          8483976 kB
+SwapCached:            0 kB
+Active:          1340916 kB
+Inactive:        7995944 kB
+Active(anon):     826444 kB
+Inactive(anon):        0 kB
+Active(file):     514472 kB
+Inactive(file):  7995944 kB
+Unevictable:       46936 kB
+Mlocked:           43864 kB
+SwapTotal:       4194300 kB
+SwapFree:        4194300 kB
+Zswap:                 0 kB
+Zswapped:              0 kB
+Dirty:               168 kB
+Writeback:             0 kB
+</pre></section>
+<section><h2>4. Disk Usage</h2><pre>
+Filesystem     Type   Size  Used Avail Use% Mounted on
+/dev/root      ext4    72G   56G   16G  78% /
+tmpfs          tmpfs  7.9G   84K  7.9G   1% /dev/shm
+tmpfs          tmpfs  3.2G  1.2M  3.2G   1% /run
+tmpfs          tmpfs  5.0M     0  5.0M   0% /run/lock
+/dev/sdb16     ext4   881M   62M  758M   8% /boot
+/dev/sdb15     vfat   105M  6.2M   99M   6% /boot/efi
+/dev/sda1      ext4    74G  4.1G   66G   6% /mnt
+tmpfs          tmpfs  1.6G   12K  1.6G   1% /run/user/1001
+tmpfs          tmpfs  1.6G   12K  1.6G   1% /run/user/0
+
+Mount Points:
+NAME    MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+sda       8:0    0   75G  0 disk 
+└─sda1    8:1    0   75G  0 part /mnt
+sdb       8:16   0   75G  0 disk 
+├─sdb1    8:17   0   74G  0 part /
+├─sdb14   8:30   0    4M  0 part 
+├─sdb15   8:31   0  106M  0 part /boot/efi
+└─sdb16 259:0    0  913M  0 part /boot
+</pre></section>
+<section><h2>5. Network Interfaces & IP</h2><pre>
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 7c:ed:8d:54:40:03 brd ff:ff:ff:ff:ff:ff
+    inet 10.1.0.220/20 metric 100 brd 10.1.15.255 scope global eth0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::7eed:8dff:fe54:4003/64 scope link 
+       valid_lft forever preferred_lft forever
+3: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+    link/ether 92:80:0c:53:1e:3b brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+       valid_lft forever preferred_lft forever
+
+Default Gateway:
+default via 10.1.0.1 dev eth0 proto dhcp src 10.1.0.220 metric 100 
+</pre></section>
+<section><h2>6. Open Ports & Listening Services</h2><pre>
+Netid State  Recv-Q Send-Q   Local Address:Port  Peer Address:PortProcess                                                                                                                   
+udp   UNCONN 0      0           127.0.0.54:53         0.0.0.0:*    uid:991 ino:2846 sk:103c cgroup:/system.slice/systemd-resolved.service <->                                               
+udp   UNCONN 0      0        127.0.0.53%lo:53         0.0.0.0:*    uid:991 ino:2844 sk:103d cgroup:/system.slice/systemd-resolved.service <->                                               
+udp   UNCONN 0      0      10.1.0.220%eth0:68         0.0.0.0:*    uid:998 ino:5512 sk:103e cgroup:/system.slice/systemd-networkd.service <->                                               
+udp   UNCONN 0      0            127.0.0.1:323        0.0.0.0:*    ino:7510 sk:103f cgroup:/system.slice/chrony.service <->                                                                 
+udp   UNCONN 0      0                [::1]:323           [::]:*    ino:7511 sk:303b cgroup:/system.slice/chrony.service v6only:1 <->                                                        
+udp   UNCONN 0      0                    *:35980            *:*    ino:14240 sk:303c cgroup:/user.slice/user-0.slice/session-c1.scope v6only:0 <->                                          
+tcp   LISTEN 0      4096     127.0.0.53%lo:53         0.0.0.0:*    uid:991 ino:2845 sk:303d cgroup:/system.slice/systemd-resolved.service <->                                               
+tcp   LISTEN 0      4096        127.0.0.54:53         0.0.0.0:*    uid:991 ino:2847 sk:303e cgroup:/system.slice/systemd-resolved.service <->                                               
+tcp   LISTEN 0      4096           0.0.0.0:22         0.0.0.0:*    ino:5652 sk:303f cgroup:/system.slice/ssh.socket <->                                                                     
+tcp   LISTEN 0      4096                 *:39897            *:*    ino:14239 sk:3040 cgroup:/user.slice/user-0.slice/session-c1.scope v6only:0 <->                                          
+tcp   LISTEN 0      4096                 *:46413            *:*    ino:14238 sk:3041 cgroup:/user.slice/user-0.slice/session-c1.scope v6only:0 <->                                          
+tcp   LISTEN 0      511                  *:2301             *:*    users:(("node",pid=2042,fd=24)) uid:1001 ino:14400 sk:3042 cgroup:/system.slice/hosted-compute-agent.service v6only:0 <->
+tcp   LISTEN 0      4096              [::]:22            [::]:*    ino:5654 sk:3043 cgroup:/system.slice/ssh.socket v6only:1 <->                                                            
+
+Netstat Output:
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.54:53           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -                   
+tcp6       0      0 :::39897                :::*                    LISTEN      -                   
+tcp6       0      0 :::46413                :::*                    LISTEN      -                   
+tcp6       0      0 :::2301                 :::*                    LISTEN      2042/node           
+tcp6       0      0 :::22                   :::*                    LISTEN      -                   
+</pre></section>
+<section><h2>7. Firewall Status</h2><pre>
+UFW Status:
+
+Iptables Rules:
+</pre></section>
+<section><h2>8. Blocked or Failed Services</h2><pre>
+Systemd Failed Services:
+  UNIT LOAD ACTIVE SUB DESCRIPTION
+
+0 loaded units listed.
+</pre></section>
+<section><h2>9. Running Services & Daemons</h2><pre>
+  UNIT                         LOAD   ACTIVE SUB     DESCRIPTION
+  chrony.service               loaded active running chrony, an NTP client/server
+  containerd.service           loaded active running containerd container runtime
+  cron.service                 loaded active running Regular background program processing daemon
+  dbus.service                 loaded active running D-Bus System Message Bus
+  docker.service               loaded active running Docker Application Container Engine
+  getty@tty1.service           loaded active running Getty on tty1
+  haveged.service              loaded active running Entropy Daemon based on the HAVEGE algorithm
+  hosted-compute-agent.service loaded active running Job that runs the Hosted Compute Agent
+  hv-kvp-daemon.service        loaded active running Hyper-V KVP Protocol Daemon
+  ModemManager.service         loaded active running Modem Manager
+  multipathd.service           loaded active running Device-Mapper Multipath Device Controller
+  networkd-dispatcher.service  loaded active running Dispatcher daemon for systemd-networkd
+  php8.3-fpm.service           loaded active running The PHP 8.3 FastCGI Process Manager
+  polkit.service               loaded active running Authorization Manager
+  rsyslog.service              loaded active running System Logging Service
+  serial-getty@ttyS0.service   loaded active running Serial Getty on ttyS0
+  systemd-hostnamed.service    loaded active running Hostname Service
+  systemd-journald.service     loaded active running Journal Service
+  systemd-logind.service       loaded active running User Login Management
+  systemd-networkd.service     loaded active running Network Configuration
+  systemd-resolved.service     loaded active running Network Name Resolution
+  systemd-udevd.service        loaded active running Rule-based Manager for Device Events and Files
+  udisks2.service              loaded active running Disk Manager
+  user@0.service               loaded active running User Manager for UID 0
+  user@1001.service            loaded active running User Manager for UID 1001
+  walinuxagent.service         loaded active running Azure Linux Agent
+
+Legend: LOAD   → Reflects whether the unit definition was properly loaded.
+        ACTIVE → The high-level unit activation state, i.e. generalization of SUB.
+        SUB    → The low-level unit activation state, values depend on unit type.
+
+26 loaded units listed.
+</pre></section>
+<section><h2>10. User Accounts & Last Logins</h2><pre>
+root:0:/bin/bash
+daemon:1:/usr/sbin/nologin
+bin:2:/usr/sbin/nologin
+sys:3:/usr/sbin/nologin
+sync:4:/bin/sync
+games:5:/usr/sbin/nologin
+man:6:/usr/sbin/nologin
+lp:7:/usr/sbin/nologin
+mail:8:/usr/sbin/nologin
+news:9:/usr/sbin/nologin
+uucp:10:/usr/sbin/nologin
+proxy:13:/usr/sbin/nologin
+www-data:33:/usr/sbin/nologin
+backup:34:/usr/sbin/nologin
+list:38:/usr/sbin/nologin
+irc:39:/usr/sbin/nologin
+_apt:42:/usr/sbin/nologin
+nobody:65534:/usr/sbin/nologin
+systemd-network:998:/usr/sbin/nologin
+systemd-timesync:996:/usr/sbin/nologin
+dhcpcd:100:/bin/false
+messagebus:101:/usr/sbin/nologin
+syslog:102:/usr/sbin/nologin
+systemd-resolve:991:/usr/sbin/nologin
+uuidd:103:/usr/sbin/nologin
+tss:104:/bin/false
+sshd:105:/usr/sbin/nologin
+pollinate:106:/bin/false
+tcpdump:107:/usr/sbin/nologin
+landscape:108:/usr/sbin/nologin
+fwupd-refresh:990:/usr/sbin/nologin
+polkitd:989:/usr/sbin/nologin
+_chrony:109:/usr/sbin/nologin
+sphinxsearch:110:/usr/sbin/nologin
+systemd-coredump:988:/usr/sbin/nologin
+mysql:111:/bin/false
+postgres:112:/bin/bash
+packer:1000:/bin/bash
+runner:1001:/bin/bash
+
+Last Logins:
+reboot   system boot  Tue Jan  6 11:35   still running      6.11.0-1018-azure
+
+wtmp begins Mon Dec 15 22:12:37 2025
+</pre></section>
+<section><h2>11. Scheduled Tasks (Cron)</h2><pre>
+
+System Cron Jobs:
+/etc/crontab
+
+/etc/cron.d:
+e2scrub_all
+php
+sphinxsearch
+sysstat
+
+/etc/cron.daily:
+apache2
+apport
+apt-compat
+dpkg
+logrotate
+man-db
+microsoft-edge
+sysstat
+
+/etc/cron.hourly:
+
+/etc/cron.monthly:
+
+/etc/cron.weekly:
+man-db
+
+/etc/cron.yearly:
+</pre></section>
+<section><h2>12. Recent System Logs (Errors)</h2><pre>
+Jan 06 11:35:28 runnervmh13bl kernel: /dev/sr0: Can't lookup blockdev
+Jan 06 11:36:39 runnervmh13bl systemctl[3235]: Failed to connect to bus: Operation not permitted
+Jan 06 11:36:39 runnervmh13bl systemctl[3236]: Failed to connect to bus: Operation not permitted
+Jan 06 11:36:39 runnervmh13bl systemd[3222]: Failed to listen on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+░░ Subject: A start job for unit UNIT has failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit UNIT has finished with a failure.
+░░ 
+░░ The job identifier is 13 and the job result is failed.
+</pre></section>
+<section><h2>13. Hardware Summary</h2><pre>
+H/W path    Device    Class          Description
+================================================
+                      system         Computer
+/0                    bus            Motherboard
+/0/0                  memory         16GiB System memory
+/0/1                  processor      AMD EPYC 7763 64-Core Processor
+/0/100                bridge         440BX/ZX/DX - 82443BX/ZX/DX Host bridge (AGP disabled)
+/0/100/7              bridge         82371AB/EB/MB PIIX4 ISA
+/0/100/7/0            system         PnP device PNP0b00
+/0/100/7/1            input          PnP device PNP0303
+/0/100/7/2            input          PnP device PNP0f03
+/0/100/7/3            communication  PnP device PNP0501
+/0/100/7/4            communication  PnP device PNP0501
+/0/100/7/5            storage        PnP device PNP0700
+/0/100/7/6            system         PnP device PNP0c02
+/0/100/7/7            system         PnP device PNP0c02
+/0/100/7/8            system         PnP device PNP0c01
+/0/100/7.1            storage        82371AB/EB/MB PIIX4 IDE
+/0/100/7.3            bridge         82371AB/EB/MB PIIX4 ACPI
+/0/100/8              display        Hyper-V virtual VGA
+/1          /dev/fb0  display        hyperv_drmdrmfb
+/2          input0    input          Power Button
+/3          input1    input          AT Translated Set 2 keyboard
+/4          input3    input          Microsoft Vmbus HID-compliant Mouse
+/5          input4    input          AT Translated Set 2 keyboard
+/6          eth0      network        Ethernet interface
+</pre></section>
+<section><h2>14. Pending Security Updates</h2><pre>
+libpam-modules-bin/noble-updates,noble-security 1.5.3-5ubuntu5.5 amd64 [upgradable from: 1.5.3-5ubuntu5.4]
+libpam-modules/noble-updates,noble-security 1.5.3-5ubuntu5.5 amd64 [upgradable from: 1.5.3-5ubuntu5.4]
+libpam-runtime/noble-updates,noble-security 1.5.3-5ubuntu5.5 all [upgradable from: 1.5.3-5ubuntu5.4]
+libpam0g/noble-updates,noble-security 1.5.3-5ubuntu5.5 amd64 [upgradable from: 1.5.3-5ubuntu5.4]
+libpng16-16t64/noble-updates,noble-security 1.6.43-5ubuntu0.1 amd64 [upgradable from: 1.6.43-5build1]
+libssh-4/noble-updates,noble-security 0.10.6-2ubuntu0.2 amd64 [upgradable from: 0.10.6-2ubuntu0.1]
+libwbclient0/noble-updates,noble-security 2:4.19.5+dfsg-4ubuntu9.4 amd64 [upgradable from: 2:4.19.5+dfsg-4ubuntu9.3]
+linux-azure/noble-updates,noble-security 6.14.0-1017.17~24.04.1 amd64 [upgradable from: 6.11.0-1018.18~24.04.1]
+linux-cloud-tools-azure/noble-updates,noble-security 6.14.0-1017.17~24.04.1 amd64 [upgradable from: 6.11.0-1018.18~24.04.1]
+linux-headers-azure/noble-updates,noble-security 6.14.0-1017.17~24.04.1 amd64 [upgradable from: 6.11.0-1018.18~24.04.1]
+linux-image-azure/noble-updates,noble-security 6.14.0-1017.17~24.04.1 amd64 [upgradable from: 6.11.0-1018.18~24.04.1]
+linux-tools-azure/noble-updates,noble-security 6.14.0-1017.17~24.04.1 amd64 [upgradable from: 6.11.0-1018.18~24.04.1]
+open-vm-tools/noble-updates,noble-security 2:12.5.0-1~ubuntu0.24.04.2 amd64 [upgradable from: 2:12.4.5-1~ubuntu0.24.04.2]
+python-apt-common/noble-updates,noble-security 2.7.7ubuntu5.1 all [upgradable from: 2.7.7ubuntu5]
+python3-apt/noble-updates,noble-security 2.7.7ubuntu5.1 amd64 [upgradable from: 2.7.7ubuntu5]
+python3-urllib3/noble-updates,noble-security 2.0.7-1ubuntu0.3 all [upgradable from: 2.0.7-1ubuntu0.2]
+</pre></section>
+<section><h2>15. Server Workload</h2><pre>
+Load Average (1, 5, 15 min):
+0.55 0.31 0.12 1/330 3426
+
+Top 5 Processes by CPU:
+    PID    PPID CMD                         %MEM %CPU
+   3295    3293 /home/runner/work/_temp/ghc  2.1  6.3
+   3241    3239 padawan-fw run su runner -p  0.5  5.5
+   1974    1956 /home/runner/actions-runner  0.7  3.4
+   2055    2042 npm exec @playwright/mcp@0.  0.5  2.9
+      1       0 /sbin/init                   0.0  2.7
+
+Top 5 Processes by Memory:
+    PID    PPID CMD                         %MEM %CPU
+   3295    3293 /home/runner/work/_temp/ghc  2.1  6.3
+   2042    2039 /home/runner/work/_temp/ghc  0.8  1.6
+   1974    1956 /home/runner/actions-runner  0.7  3.4
+   1956    1919 /home/runner/actions-runner  0.6  1.4
+   2055    2042 npm exec @playwright/mcp@0.  0.5  2.9
+</pre></section>
+<section><h2>16. Server Health Checks</h2><pre>
+<span class="good">CPU Load Normal</span>
+<span class="good">RAM usage is healthy</span>
+<span class="good">All disk usage under 90%</span>
+<span class="good">Swap usage is healthy</span>
+<span class="good">Overall server health is OK.</span>
+</pre></section>
+<hr>
+<p style="text-align:center;color:#888;font-size:0.95em">
+Server Audit Report generated by <strong>server_audit_report.sh</strong> on Tue Jan  6 11:37:24 UTC 2026
+</p>
+</body>
+</html>
